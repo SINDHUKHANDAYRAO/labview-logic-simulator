@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LabVIEW Digital Logic Gate Simulator</title>
+  <style>
+    body {
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      background-color: #f0e6d2;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px;
+      border: 3px solid #000000;
+      border-radius: 12px;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: #2c1d0e;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    p, ul {
+      color: #1b1b1b;
+      line-height: 1.6;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 700px;
+      border-radius: 8px;
+      border: 2px solid #000000;
+    }
+
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border: 2px solid #000000;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 700px;
+      height: 400px;
+    }
+
+    .two-column-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .info-box {
+      background-color: #f6e9c5;
+      border: 2px solid #000000;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1;
+      min-width: 300px;
+      box-sizing: border-box;
+    }
+
+    .info-box h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #2c1d0e;
+    }
+
+    .info-box ul {
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+
+    .info-box li {
+      margin-bottom: 8px;
+      text-align: justify;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #000000;
+      margin: 50px auto;
+      width: 80%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>LabVIEW Digital Logic Gate Simulator</h1>
+
+    <p>
+      This project simulates the behavior of basic digital logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) using LabVIEW. It is a purely software-based tool that allows students or electronics enthusiasts to learn, test, and visualize gate outputs in real time. This project was designed with simplicity in mind but lays the foundation for more complex digital simulations.
+    </p>
+
+    <h2>Front Panel (User Interface)</h2>
+    <img src="frontpanel.png" alt="LabVIEW Front Panel">
+
+    <h2>Block Diagram (Core Logic)</h2>
+    <img src="blockdia.png" alt="LabVIEW Block Diagram">
+
+    <h2>Features & Applications</h2>
+
+    <div class="two-column-wrapper">
+      <div class="info-box">
+        <h3>Key Features</h3>
+        <ul>
+          <li>Dropdown-based logic gate selection using Enum control</li>
+          <li>Two interactive Boolean inputs for user-defined values</li>
+          <li>Live LED-style output display for logic results</li>
+          <li>Continuous monitoring using a While Loop</li>
+          <li>Expandable design for larger combinational logic circuits</li>
+        </ul>
+      </div>
+      <div class="info-box">
+        <h3>Applications</h3>
+        <ul>
+          <li>Educational tool for understanding digital logic concepts</li>
+          <li>Virtual logic lab for remote or classroom demonstrations</li>
+          <li>Quick prototyping environment for simple logic validation</li>
+          <li>Foundation block for building full-scale LabVIEW simulators</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Demo Video</h2>
+    <!-- Replace with actual YouTube or video path -->
+    <iframe src="tutorial.mp4" allowfullscreen></iframe>
+
+    <hr>
+
+    <footer>
+      Created by Sindhu &mdash; LabVIEW Logic Simulator Project | 10-07-2025
+    </footer>
+
+  </div>
+
+</body>
+</html>
