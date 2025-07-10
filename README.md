@@ -53,7 +53,7 @@ The project is hosted using GitHub Pages:
 index.html # Main web page
 frontpanel.png # LabVIEW front panel screenshot
 blockdia.png # Block diagram screenshot
-tutorial.mp4 # Demo video (optional)
+tutorial.mp4 # Demo video 
 README.md # Project documentation
 
 
