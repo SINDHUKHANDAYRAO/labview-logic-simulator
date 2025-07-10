@@ -36,7 +36,7 @@ This project is a basic **Digital Logic Gate Simulator** built using **LabVIEW**
 
 A working video demonstration is available.
 
-If you're using the local version:  
+
 - Open `tutorial.mp4` included in this repository
 
 
