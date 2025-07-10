@@ -39,7 +39,6 @@ A working video demonstration is available.
 If you're using the local version:  
 - Open `tutorial.mp4` included in this repository
 
-Or replace this with a YouTube link if hosted online.
 
 ---
 
